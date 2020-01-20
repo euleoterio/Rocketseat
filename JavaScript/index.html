@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            //Aula 1
+            //console.log('Hello World');    
+            // var nome = "Vinicius";
+            // var idade = 23;
+            // var peso = 90.5;
+            // var humano = true;
+
+            // var alunos = ['Vinicius', 'Jéssica', 'Euleoteiro'];
+
+            // var aluno = {
+            //     nome: alunos[1],
+            //     idade: 23,
+            //     peso: 90.5,
+            //     humano: true
+            // };
+
+            // console.log(alunos[1]);
+            // console.log(aluno.nome);
+
+            //Aula 2
+            // var x = 10, y = 5;
+
+            // x *= 3;
+            // var resultado = x + y;
+
+            // console.log(resultado);
+            // console.log(x);
+
+            //Aula 3
+            // function soma(n1, n2) {
+            //     var resultado = n1 + n2;
+
+            //     return resultado;
+            // }
+
+            // var resultado = soma(1,2);
+
+            // console.log(resultado);
+
+
+            //Aula 4
+            function retornaSexo(sexo){
+                //M or F
+
+                // if (sexo === 'M'){
+                //     return 'Masculino';
+                // } else if(sexo === 'F'){
+                //     return 'Feminino';
+                // } else {
+                //     return 'Outro';
+                // }
+                
+                switch(sexo){
+                    case 'M':
+                        return 'Masculino';
+                    case 'F':
+                        return 'Feminino';
+                    default:
+                        return 'Outro';
+                }
+            }
+
+            var resultado = retornaSexo('M');
+
+            console.log(resultado);
+
+        </script>
+    </body>
+</html>
