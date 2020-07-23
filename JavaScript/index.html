@@ -1,9 +1,11 @@
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Curso Javascript</title>
     </head>
     <body>
-        <script>
+
+       <script>
             //Aula 1
             //console.log('Hello World');    
             // var nome = "Vinicius";
@@ -45,7 +47,7 @@
 
 
             //Aula 4
-            function retornaSexo(sexo){
+            //function retornaSexo(sexo){
                 //M or F
 
                 // if (sexo === 'M'){
@@ -56,20 +58,93 @@
                 //     return 'Outro';
                 // }
                 
-                switch(sexo){
-                    case 'M':
-                        return 'Masculino';
-                    case 'F':
-                        return 'Feminino';
-                    default:
-                        return 'Outro';
-                }
+            //     switch(sexo){
+            //         case 'M':
+            //             return 'Masculino';
+            //         case 'F':
+            //             return 'Feminino';
+            //         default:
+            //             return 'Outro';
+            //     }
+            // }
+
+            // var resultado = retornaSexo('M');
+
+            // console.log(resultado);
+
+            
+            //Aula 5
+            //And, or, not
+
+            //var sexo = 'M', idade = 23;
+
+            // if(sexo === 'M'|| idade >= 18){
+            // //if(sexo === 'M' && idade >= 18){
+            //     console.log('OK');
+            // }
+
+            // if(sexo !== 'M'){
+            //     console.log('Ok');
+            // }
+
+            // if( sexo === 'M'){
+            //     var masculino = true;
+            // }else{
+            //     masculino = false;
+            // }
+
+            // var masculino = (sexo === 'M');
+            
+            // console.log(masculino);
+
+
+            //Aula 6
+
+            // var sexo = 'M';
+
+            // // if (sexo === 'M'){
+            // //     return 'Masculino';
+            // // }else {
+            // //     return 'Feminino';
+            // // }
+
+            // var retorno =  (sexo === 'M') ? 'Masculino': 'Feminino';
+
+            // console.log(retorno);
+
+            //Aula 7
+            //for, while
+
+            // for(var i = 0; i <= 100; i++){
+            //     console.log(i);
+            // }
+
+            // var j = 0;
+
+            // while(j<= 100){
+            //     console.log(j);
+
+            //     j++;
+            // }
+
+            // var j = 2112440;
+            
+            // while(j > 50){
+            //     console.log(j);
+
+            //     j /= 5;
+            // }
+
+            //Aula 7
+
+            function exibeAlgo() {
+                 console.log('Hello World');
             }
+            
+            // //setInterval(exibeAlgo, 1000);
+             setTimeout(exibeAlgo, 5000);
 
-            var resultado = retornaSexo('M');
-
-            console.log(resultado);
 
         </script>
-    </body>
+        </body>
 </html>
